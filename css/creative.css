@@ -61,7 +61,7 @@ p {
 }
 
 .header-bottom{
-	position:fixed;
+	position:absolute;
 bottom:   -80%;
 right: 46.25%;
 }
