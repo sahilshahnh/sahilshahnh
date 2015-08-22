@@ -60,6 +60,12 @@ p {
     background-color: #222;
 }
 
+.header-bottom{
+	position:fixed;
+bottom:   -80%;
+right: 46.25%;
+}
+
 .text-faded {
     color: rgba(255,255,255,.7);
 }
@@ -237,7 +243,8 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         font-size: 18px;
     }
-}
+	
+	
 
 .section-heading {
     margin-top: 0;
@@ -448,6 +455,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
     padding: 15px 30px;
 }
+
 
 ::-moz-selection {
     text-shadow: none;
