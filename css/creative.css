@@ -60,11 +60,6 @@ p {
     background-color: #222;
 }
 
-.header-bottom{
-	position:absolute;
-bottom:   -80%;
-right: 46.25%;
-}
 
 .text-faded {
     color: rgba(255,255,255,.7);
@@ -456,6 +451,26 @@ fieldset[disabled] .btn-primary.active {
     padding: 15px 30px;
 }
 
+
+.btn-bottom{
+	position:fixed;
+bottom:-90%;
+right: 48%;
+width: 75px;
+height: 75px;
+padding: 27px 10px 10px 10px;
+}
+
+.btn-trans {
+	background-color: #b1b1b1;
+   opacity:0.5;
+    background-
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	background-image: url(../img/arrow.jpg);
+}
 
 ::-moz-selection {
     text-shadow: none;
