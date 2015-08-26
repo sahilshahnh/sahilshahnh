@@ -67,8 +67,9 @@ p {
 {    
      background:url(../img/hbox.png) repeat-x scroll center top transparent;
 	 background-repeat:no-repeat;
-  height:580px;
-  width:580px;
+  height:60vh;
+  width:60vh;
+  float:right;
   padding-left:50px;
   padding-right:50px;
   padding-top:80px;
@@ -79,13 +80,6 @@ p {
     top:55px;
     left:56%;
     width:35%;
-}
-
-.resized
-{
-	max-width:100%;
-	height: auto;
-	width:auto;
 }
 .bg-primary {
     background-color: #f05f40;
