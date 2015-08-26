@@ -63,10 +63,15 @@ p {
 	float:right;
     }
 	
-.image
+.image2
 {    
-    position:relative;
-	width:100%;
+     background:url(../img/hbox.png) repeat-x scroll center top transparent;
+	 background-repeat:no-repeat;
+  height:580px;
+  width:580px;
+  padding-left:50px;
+  padding-right:50px;
+  padding-top:80px;
 }
 .text1
 {
