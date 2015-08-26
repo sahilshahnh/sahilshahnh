@@ -80,6 +80,13 @@ p {
     left:56%;
     width:35%;
 }
+
+.resized
+{
+	max-width:100%;
+	height: auto;
+	width:auto;
+}
 .bg-primary {
     background-color: #f05f40;
 }
