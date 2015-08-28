@@ -51,70 +51,13 @@ p {
     line-height: 1.5;
 }
 
-
- .ul1 {
-    list-style-type: none;
-    background-image: url(../img/hbox.png);
-	background-repeat: no-repeat;
-  background-size: 500px 500px;
-	padding-left:5%;
-	padding-right:5%;
-	padding-top:5%;
-	float:right;
-    }
-	
-.image2
-{    
-     background:url(../img/hbox.png) repeat-x scroll center top transparent;
-	 background-repeat:no-repeat;
-  height:50%;
-  width:50%;
- padding: 5% 5% 7% 7%;
- background-size:contain;
- float:right;
-
-}
-
-.image1
-{    
-     background:url(../img/hbox.png) repeat-x scroll center top transparent;
-	 background-repeat:no-repeat;
-  height:80%;
-  width:60%;
- padding: 5% 5% 7% 7%;
- background-size:contain;
- float:left;
-
-}
-.text1
-{
-    position:absolute;    
-    top:55px;
-    left:56%;
-    width:35%;
-}
 .bg-primary {
     background-color: #f05f40;
-}
-
-}
-.bg-secondary{
-	background-color: 
 }
 
 .bg-dark {
     color: #fff;
     background-color: #222;
-}
-
-.bg-circle : before {
-    background-color: #f05f40;
-}
-}
-
-.bg-circle : after {
-    background : url(../img/portfolio/2.jpg) -10% no-repeat;
-}
 }
 
 .text-faded {
@@ -123,10 +66,6 @@ p {
 
 section {
     padding: 100px 0;
-	position: relative;
-    width: 100%;
-    min-height: auto;
-    text-align: center;
 }
 
 aside {
@@ -247,13 +186,11 @@ header {
     -o-background-size: cover;
 }
 
-
 header .header-content {
     position: relative;
     width: 100%;
     padding: 100px 15px;
     text-align: center;
-	
 }
 
 header .header-content .header-content-inner h1 {
@@ -300,22 +237,20 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         font-size: 18px;
     }
-	
-	
+}
 
 .section-heading {
     margin-top: 0;
 }
 
 .service-box {
-    margin: 20px auto 0;
-    max-width: 525px;
+    margin: 50px auto 0;
+    max-width: 400px;
 }
 
 @media(min-width:992px) {
     .service-box {
-      
-		margin-left:0;
+        margin: 20px auto 0;
     }
 }
 
@@ -508,26 +443,72 @@ fieldset[disabled] .btn-primary.active {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
+}
+
+.btn-xl {
+    padding: 15px 30px;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    border-color: #ed431f;
+    color: #fff;
+    background-color: #ee4b28;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #f05f40;
+    background-color: #f05f40;
+}
+
+.btn-primary .badge {
+    color: #f05f40;
+    background-color: #fff;
+}
+
+.btn {
+    border: 0;
+    border-radius: 300px;
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
 	border: 4px outset #F73F15;
 
 }
 
 
+
+
+
+
 .btn-xl {
     padding: 15px 30px;
-}
-.btn-trans {
-	width: 83px;
-	height: 83px;
-	background-color: #b1b1b1;
-   opacity:0.6;
-    background-
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline: none;
-	border: 4px solid #a1a1a1;
-	background-image: url(../img/arrow.jpg);
 }
 
 ::-moz-selection {
@@ -608,16 +589,16 @@ body {
 
 .cbp_tmtimeline > li .cbp_tmtime span:first-child {
 	font-size: 2.9em;
-	color: #bdd0db;
+	color: #3594cb;
 }
 
 .cbp_tmtimeline > li .cbp_tmtime span:last-child {
 	font-size: 2.9em;
-	color: #3594cb;
+	color: #bdd0db;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
-	color: #6cbfee;
+	color: #bdd0db;
 }
 
 /* Right content */
@@ -684,8 +665,9 @@ body {
 	top: 0;
 	margin: 0 0 0 -25px;
 }
-
-}.icon-pencil:before {
+@media(min-width:768px) {
+	
+.icon-pencil:before {
 	content: "\f040";
 }
 .icon-trophy:before {
@@ -697,5 +679,5 @@ body {
 .icon-futbol-o:before {
 	content: "\f1e3";
 }
-
+}
 
