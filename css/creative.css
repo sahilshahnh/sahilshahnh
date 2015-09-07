@@ -327,6 +327,10 @@ header .header-content .header-content-inner p {
     color: #f05f40;
 }
 
+.text-secondary{
+	color: #d42500;
+}
+
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
