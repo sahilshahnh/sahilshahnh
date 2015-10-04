@@ -570,7 +570,7 @@ body {
 	top: 0;
 	bottom: 0;
 	width: 10px;
-	background: #afdcf8;
+	background: #ee875b;
 	left: 20.6%;
 	margin-left: -10px;
 }
@@ -594,22 +594,22 @@ body {
 
 .cbp_tmtimeline > li .cbp_tmtime span:first-child {
 	font-size: 2.9em;
-	color: #3594cb;
+	color: #f05f40;
 }
 
 .cbp_tmtimeline > li .cbp_tmtime span:last-child {
 	font-size: 2.9em;
-	color: #bdd0db;
+	color: #f0b398;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
-	color: #bdd0db;
+	color: #f0b398;
 }
 
 /* Right content */
 .cbp_tmtimeline > li .cbp_tmlabel {
 	margin: 0 0 15px 25%;
-	background: #3594cb;
+	background: #f05f40;
 	color: #fff;
 	padding: 2em;
 	font-size: 1.2em;
@@ -620,7 +620,7 @@ body {
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
-	background: #6cbfee;
+	background: #ee875b;
 }
 
 .cbp_tmtimeline > li .cbp_tmlabel h2 { 
@@ -638,13 +638,13 @@ body {
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-right-color: #3594cb;
+	border-right-color: #f05f40;
 	border-width: 10px;
 	top: 10px;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
-	border-right-color: #6cbfee;
+	border-right-color: #ee875b;
 }
 
 /* The icons */
@@ -662,9 +662,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 	position: absolute;
 	color: #fff;
-	background: #46a4da;
+	background: #f05f40;
 	border-radius: 50%;
-	box-shadow: 0 0 0 8px #afdcf8;
+	box-shadow: 0 0 0 8px #ee875b;
 	text-align: center;
 	left: 20.3%;
 	top: 0;
