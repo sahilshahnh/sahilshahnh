@@ -8,6 +8,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+	 
 }
 
 body {
@@ -297,7 +298,7 @@ header .header-content .header-content-inner p {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -307,6 +308,7 @@ header .header-content .header-content-inner p {
 
 .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
+	transition-delay:0.35s;
 }
 
 @media(min-width:768px) {
@@ -614,6 +616,7 @@ body {
 	padding: 2em;
 	font-size: 1.2em;
 	font-weight: 300;
+	
 	line-height: 1.4;
 	position: relative;
 	border-radius: 5px;
@@ -684,5 +687,39 @@ body {
 .icon-futbol-o:before {
 	content: "\f1e3";
 }
+<<<<<<< HEAD
+  }
+  .display{
+	  display:block;
+  }
+  
+  @media(max-width:768px) {
+	  .display{
+		  display:none;
+	  }
+  }
+  
+  #photos {
+  /* Prevent vertical gaps */
+
+   
+  -webkit-column-count: 3;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    3;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           0px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  padding: 7px 7px 7px 7px;
+}
+
+}
+=======
+>>>>>>> parent of 662f996... Resume and Timeline Edits
 }
 
