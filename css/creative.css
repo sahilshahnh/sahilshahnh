@@ -40,11 +40,26 @@ a:focus {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	font-size: 1.6em;
+}
+
+.cbp_tmlabel h2{
+	
+	font-size:1.35em;
+	line-height:1.5;
+	font-weight:200;
+
+}
+
+.cbp_tmlabel h3{
+	
+	font-size:1.35em;
+	line-height:1.5;
+	font-weight:200;
+
 }
 
 h4 span{
@@ -70,7 +85,7 @@ h4 span{
 }
 
 .icontext{
-	font-size: 1.4em;
+	font-size: 1.6em;
 }
 @media (max-width: 1000px) {
 	.icontext{
@@ -664,14 +679,14 @@ body {
 .cbp_tmtimeline > li .cbp_tmlabel {
 	margin: 0 0 -3% 58%;
 	background: none;
-	color: #e03612;
+	color: #464646;
+	padding-right: 7%;
+	padding-bottom: 1em;
 	padding-left: 2em;
-	padding-bottom: 2em;
-	padding-right: 2em;
-	font-size: 1.1em;
-	font-weight: 300;
+	font-size: 1.0em;
+	font-weight: 100;
 	width:50%;
-	line-height: 1.4;
+	line-height: 1.8;
 	position: relative;
 	border-radius: 5px;
 	
@@ -699,7 +714,8 @@ body {
 	background: none;
 	margin: 0 60% -3% 0;
 	text-align:right;
-	
+	padding-right:2em;
+	padding-left:7%;
 }
 
 .cbp_tmtimeline > li .cbp_tmlabel h2 { 
