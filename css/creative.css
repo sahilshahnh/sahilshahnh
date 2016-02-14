@@ -50,7 +50,8 @@ h6 {
 	
 	font-size:1.35em;
 	line-height:1.5;
-	font-weight:200;
+	font-weight:300;
+	font-style:bold; 
 
 }
 
@@ -812,11 +813,11 @@ body {
   /* Prevent vertical gaps */
 
    
-  -webkit-column-count: 3;
+  -webkit-column-count: 4;
   -webkit-column-gap:   0px;
   -moz-column-count:    3;
   -moz-column-gap:      0px;
-  column-count:         3;
+  column-count:         4;
   column-gap:           0px;  
 }
 
